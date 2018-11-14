@@ -1,2 +1,2 @@
 # portfolioSite
-html, css, js
+Hand Coded HTML/CSS/JavaScript website for design work
