@@ -12,21 +12,78 @@
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <script src="main.js"></script>
+    <meta name="veiwport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
 
 </head>
 <body>
-    <!-- navigation -->
-    <nav>
+    <div class="mainDetails">
+        <div id="name">
         <h2>Tailyn Clark</h2>
         <h3>Photographer + Designer</h3>
-        <a href=>about</a>
-        <a href=>portfolio</a>
-        <a href=>misc.</a>
-        <a href=>contact</a>
-    </nav>
-    <!-- trio of images -->
-    <div class="imageContainer">
-          
+        </div>
     </div>
+
+ <div class="nav">
+    <ul>
+        <li><a href="aboutMe/aboutMe.html">About</a></li>
+        <!-- <li><a href="#Photography">Photography</a></li>
+        <li><a href="#Design">Design</a></li> -->
+      </ul>
+      <A STYLE="text-decoration:none" HREF="link.html"></A>
+
+    <img class="mySlides w3-animate splashPhoto" src="images/debora4.jpg" style="width:100">
+    <img class="mySlides w3-animate splashPhoto" src="images/torreya1.jpg" style="width:100%">
+    <img class="mySlides w3-animate splashPhoto" src="images/cousinstizz2.jpg" style="width:100">
+    <img class="mySlides w3-animate splashPhoto" src="images/debora44.jpg" style="width:100">
+    <img class="mySlides w3-animate splashPhoto" src="images/girls.jpg" style="width:100">
+    <img class="mySlides w3-animate splashPhoto" src="images/IMG_3615.jpg" style="width:100">
+    <img class="mySlides w3-animate splashPhoto" src="images/amaya1 copy.jpg" style="width:100">
+    <img class="mySlides w3-animate splashPhoto" src="images/torreya5.jpg" style="width:100">
+    <img class="mySlides w3-animate splashPhoto" src="images/debora44.jpg" style="width:100">
+    <img class="mySlides w3-animate splashPhoto" src="images/cousinstizz.jpg" style="width:100">
+    <img class="mySlides w3-animate splashPhoto" src="images/amaya10.jpg" style="width:100">
+    
+    
+
+
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName ("mySlides");
+    for (i = 0; i < x.length; i++){
+        x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex =3}
+    x[myIndex-1].style.display = "block"
+    setTimeout(carousel, 2000);
+}
+</script>
+
+
+    
+
+
+
+     
+    
+        
+   
+
+  
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+ 
 </body>
 </html>
